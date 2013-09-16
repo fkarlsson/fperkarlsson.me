@@ -1,0 +1,12 @@
+{
+  "name": "fperkarlsson-net",
+  "version": "0.0.0",
+  "dependencies": {
+    "foundation": "~4.1.2",
+    "requirejs": "~2.1.4",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.9.1",
+    "font-awesome": "~3.1.1"
+  },
+  "devDependencies": {}
+}

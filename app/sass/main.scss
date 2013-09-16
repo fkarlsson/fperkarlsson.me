@@ -1,0 +1,715 @@
+@import '../components/foundation/scss/foundation';
+@import '../components/foundation/scss/foundation/variables';
+@import '../components/foundation/scss/foundation/components/global';
+@import '../components/foundation/scss/foundation/components/buttons';
+// @import 'font-awesome/sass/font-awesome.scss';
+
+$color1: #ba3131; // Red
+$color2: #5A5F66; // Grey
+$color3: #1b364a; // Blue
+$color4: #4381b2; // Light blue
+$color5: #BDC4C4; // Light grey
+$color6: #234661; // Ligther blue
+$color7: #1c3c56; // Less Ligther blue
+
+$shadow-color1: #cccccc;
+$shadow-color2: #232423;
+$shadow-color3: #2e2e2e;
+
+@mixin primary-font {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	color: $color1;
+}
+
+@mixin secondary-font {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: $color1;
+}
+
+@mixin content-font {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #333;	
+}
+
+@mixin primary-shadow {
+	text-shadow: 1px 1px 0 $shadow-color1;
+}
+
+@mixin secondary-shadow {
+	text-shadow: 1px 1px 0 $shadow-color2;
+}
+
+@mixin content-header-bg {
+	background: $color7;
+	background: linear-gradient(to bottom, $color6 0%,$color7 100%);
+}
+
+@mixin content-header-bg-r {
+	background: $color7;
+	background: linear-gradient(to bottom, $color7 0%,$color6 100%);
+}
+
+body {
+	@include content-font;
+
+	background: $color3;
+	background: url(../images/bg-pattern.png);
+}
+
+p {
+	@include content-font;
+}
+
+.swedish-flag {
+	$yellow: #ffc200;
+	$blue: rgb(0, 127, 229);
+
+	$width: 210px;
+	$height: $width * (10/16);
+
+	width: $width;
+	height: $height;
+
+	background: $blue;
+	background: 
+	    linear-gradient(180deg, $blue 0%, $blue 40%, $yellow 40%, $yellow 60%, $blue 60%),
+	    linear-gradient(90deg, transparent 0%, transparent 31%, $yellow 31%, $yellow 44%, transparent 44%, transparent 100%),
+		linear-gradient(180deg, $blue 0%, $blue 40%, $yellow 40%, $yellow 60%, $blue 60%);
+
+	background-position: 0% 0%;
+	background-size: 31% 100%, 100% 100%, 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+@mixin block-bg {
+	$c1: #2d6187;
+	$c2: #295a7d;
+	$c3: #265373;
+	$c4: #234b69;
+	$c5: #1f445e;
+	$c6: #1c3d54;
+
+	background: $c1;
+ 	background: linear-gradient(180deg,
+		$c1 0%, $c6 100%
+ 	);
+
+    background-position: 0px 0px;
+    background-size: 100% 170px;
+    background-repeat: no-repeat;
+}
+
+.block {
+	width: 220px;
+
+	.icon {	
+		width: 220px;
+		height: 220px;
+		margin-bottom: 0px;
+	}
+	
+	h5 {
+		@include secondary-font;
+		color: $color5;
+		@include secondary-shadow;
+		font-size: 20px;
+
+		width: 220px;
+
+		text-align: center;
+
+		margin: 0;
+
+		transition: background 1s;
+	}
+}
+
+#header-wrapper {
+	
+}
+
+#header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	height: 305px;
+
+	visibility: hidden;
+
+	&.show {	
+		visibility: visible;
+	}
+
+	#connect {
+		text-align: right;
+		padding-right: 13px !important; 
+		cursor: default;
+		position: relative;
+		z-index: 2;
+
+		a {
+			color: $color1;
+			padding-right: 8px;
+			transition: color 0.2s;
+
+			&:hover {
+				color: #4381b2;
+				transition: color 0.4s;
+			}
+		}
+
+		i {
+			cursor: pointer;
+		}
+		
+		.swedish-flag {
+			width: 20px;
+			height: 20px * (10/16);
+			display: inline-block;
+		}
+	}
+
+	#name {
+		position: relative;
+		z-index: 1;
+		height: 173px;
+		margin-top: -60px;
+		margin-bottom: 10px;
+
+		h1 {
+			@include primary-font;
+			font-size: 124px;
+			width: 1060px;
+			margin: 10px 0 0 0;
+
+			position: absolute;
+			top: 0px;
+			left: 45px;
+
+			cursor: default;
+		}
+	}
+
+	#title {
+		h2 {
+			@include secondary-font;
+			font-size: 35px;
+			color: #C9322F;
+
+			margin: 0 0 5px 0;
+
+			cursor: default;
+		}
+
+		text-align: center;
+	}
+
+	#tagline {
+		h3 {
+			@include secondary-font;
+			font-size: 26px;
+			color: #C9322F;
+			
+			margin: 0 0 5px 0;
+		}
+
+		text-align: center;
+	}
+
+	#header-content article {
+		height: 0;
+		opacity: 0;
+		overflow: hidden;
+
+		width: 1000px;
+		padding-left: 515px;
+		margin-top: -10px;
+
+		position: relative;
+		z-index: 9999;
+
+		h5 {
+			@include primary-font;
+			color: $color5;
+			margin: -10px 0 0 0;
+			padding: 0;
+			text-align: left;
+			cursor: text;
+			font-size: 24px;
+			width: 100%;
+		}
+
+		h6 {
+			@include secondary-font;
+			margin-bottom: 10px;
+			color: $color5;
+			font-size: 20px;
+			cursor: text;
+		}
+
+		p {
+			color: darken($color5, 10%);
+			cursor: text;
+			margin-bottom: 10px;
+			line-height: 1.45;
+		}
+
+		.live-link {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+
+			
+			background: rgba(0,0,0,0.8);
+			display: block;
+			padding: 10px 13px 10px 10px;
+
+			i {
+				margin-right: 5px;
+			}
+
+			&:hover {
+				background-color: #000;
+				transition: background-color 0.5s linear;
+			}
+		}
+	}
+
+	// Common animation class
+	&.animate {
+		transition: height 1s;
+		transition-delay: 1s;
+
+		#name h1 {
+			transition: 1s;
+			transition-delay: 1s;
+		}
+
+		#connect {
+			transition: 1s;
+			transition-delay: 1s;
+		}
+
+		#title, #tagline {
+			transition: opacity 1s;
+			transition-delay: 0s;
+		}
+
+		#header-content .active {
+			&.slow {
+				transition: height 1.2s, opacity 1s;
+				transition-delay: 1s, 2s;
+			}
+
+			&.fast {
+				transition: opacity 1.5s;
+				transition-delay: 0s;
+			}
+		}
+
+		&.reverse {
+			transition-delay: 0s;
+
+			#name h1, #connect {
+				transition-delay: 0s;
+			}
+
+			#title, #tagline {
+				transition-delay: 0s;
+			}
+
+			#header-content article {
+				transition: opacity 0.2s;
+			}
+		}
+	}
+
+	&.collapsed {
+		
+		height: 420px;
+
+		#name {
+
+			h1 {
+				left: 30px;
+				top: 0px;
+				font-size: 20px;
+			}
+		}
+
+		#connect {
+			right: -22px;
+			top: -25px;
+		}
+
+		#title, #tagline {
+			opacity: 0;
+		}
+
+		#header-content {
+			margin: -218px 15px 0px 15px;
+
+			article {
+				margin-top: 0;
+
+				&.active {
+					height: 356px;
+					opacity: 1;
+					overflow: visible;
+					
+					
+
+					
+				}
+			}
+		}
+	}
+
+}
+
+#nav-wrapper {
+	background: #C95825;
+	background: linear-gradient(180deg,
+		#C95825 0%, #D65D27 45%, #D65D27 55%, #C95825 100%
+	);
+	border-top: 1px dashed $color3;
+	border-bottom: 1px dashed $color3;
+	margin-bottom: 20px;
+	height: 50px;
+	
+	#nav {
+		ul {
+			list-style-type: none;
+			text-align: center;
+			@include primary-font;
+			font-size: 30px;
+			
+			li {
+				position: relative;
+				float: left;
+				width: 323px;
+
+				a {
+					color: $color3;
+					display: inline-block;
+					transition: color 0.4s;
+
+					&.active {
+					color: #fff;
+
+						&:hover {
+							color: #fff;
+						}	
+					}		
+
+					&:hover {
+						color: lighten($color3, 5%);
+						transition: color 0.4s;
+					}
+				}
+			}
+			
+		}
+	}
+}
+
+@mixin position-1 { 
+	transform: translateX(0) translateZ(0) rotateY(0);
+	transition: transform 1s, opacity 1s;
+
+	opacity: 1; 
+	height: 360px;
+	overflow: auto;
+}
+@mixin position-2 { 
+	transform: translateX(120%) translateZ(-500px) rotateY(50deg);
+	transition: transform 1s, opacity 1s, height 1s 0s;
+
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+@mixin position-3 { 
+	transform: translateX(-120%) translateZ(-500px) rotateY(-50deg);
+	transition: transform 1s, opacity 1s, height 1s 0s;
+
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+#content-container {
+	position: relative;
+
+	perspective: 1000px;
+	transform-style: preserve-3d;
+
+
+	&.show.skills {
+		#skills-content { @include position-1 }
+		#work-content { @include position-2 }
+		#contact-content { @include position-2 }
+	}
+
+	&.show.work {
+		#skills-content { @include position-3 }
+		#work-content { @include position-1 }
+		#contact-content { @include position-2 }
+	}
+
+	&.show.contact {
+		#skills-content { @include position-3 }
+		#work-content { @include position-3 }
+		#contact-content { @include position-1 }
+	}
+
+	section {
+		position: absolute;
+		
+		top: 0;
+		left: 15px;
+
+		opacity: 0;
+	}
+}
+	
+#skills-content {
+	margin-bottom: 40px;
+
+	#skills-blocks {
+
+		.svg-ux {
+			background-position: center 10px;
+		}
+
+		.svg-apple {
+			background-size: 170px 170px;
+			background-position: center 20px;
+		}
+
+		.svg-digital-design {
+			background-size: 160px 160px;
+			background-position: center center;
+		}
+
+		.svg-project {
+			background-size: 180px 180px;
+			background-position: center center;
+		}
+
+		.icon {
+			a { 
+				display: none;
+				width: 220px;
+				height: 220px;
+			}
+		}
+
+				
+	}
+}
+
+
+
+
+#work-content {
+	
+	
+	#work-blocks {
+		margin-bottom: 60px;
+		margin-top: 20px;
+		
+		.block {
+			position: relative;	
+			perspective: 800px;
+
+			h5 {
+				font-size: 18px;
+			}
+
+			.icon {
+				box-shadow: inset 0px 0px 50px 5px rgba(0,0,0,0.55), 
+							inset 0px 0px 0px 110px rgba(0,0,0,0.15);
+				outline: thin solid rgba(28, 54, 73, 0.5);
+				margin-bottom: 10px;
+				background-color: $color3;
+
+				transform-style: preserve-3d;
+				transform-origin: center;
+				transition: transform 1s, box-shadow 1s;
+
+				a {
+					display: block;
+					width: 220px;
+					height: 220px;
+				}
+				
+				&:hover {
+					box-shadow: inset 0px 0px 50px 5px rgba(0,0,0,0.55), 
+								inset 0px 0px 0px 110px rgba(0,0,0,0);
+
+					transition: transform 1s, box-shadow 1s;
+					transform-origin: center;
+					transform: rotateX(5deg);
+				}
+			}
+
+			
+		}
+
+		#agetomtt .icon { background-position: -115px -30px; }
+
+		#popkalendern .icon { background-position: -25px -10px;	}
+
+		#ascc .icon { background-position: -100px -20px; }
+
+		#wim .icon { background-position: -125px -20px;	}
+	}
+
+}
+
+#agetomtt .icon, #agetomtt-header-content {
+	background-image: url(../images/work/agetomtt.png);
+	background-repeat: no-repeat;
+}
+#popkalendern .icon, #popkalendern-header-content {
+	background-image: url(../images/work/popkalendern.png);
+	background-repeat: no-repeat;
+}
+
+#ascc .icon, #ascc-header-content {
+	background-image: url(../images/work/ascc.png);
+	background-repeat: no-repeat;
+}
+
+#wim .icon, #wim-header-content {
+	background-image: url(../images/work/wim.png);
+	background-repeat: no-repeat;
+}
+
+#contact-content {
+	margin-top: 20px;
+
+	p {
+		color: $color5;
+
+	}
+
+	#social	{
+		a {
+			float: left;
+			display: block;
+			width: 156px;
+
+			i {
+				margin-right: 5px;
+			}
+		}
+		> :nth-child(3n+2) {
+			text-align: center;	
+		}
+		> :last-child {
+			text-align: right;
+		}
+	}
+
+	form {
+		fieldset {
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+
+		textarea {
+			height: 100px;
+		}
+
+		input[type=text], input[type=email], textarea {
+			background-color: $color3;
+			border-color: $color2;
+			transition: background 0.2s linear;
+
+			&:focus {
+				background-color: lighten($color3, 5%);
+				transition: background 0.4s linear;
+			}
+		}
+
+		input[type=submit] {
+			@include button($button-med, darken($color4, 10%), false, true, false, true);
+			font-weight: normal;
+			font-size: 16px;
+			color: $color5;
+			transition: background 0.2s linear, color 0.2s linear;
+
+			&:hover {
+				transition: background 0.4s linear, color 0.4s linear;
+			}
+		}
+	}
+}
+
+@keyframes zoom {
+	0% {
+		width: 100px;
+	}
+	100% {
+		width: 1000px;
+	}
+}
+
+#footer {
+	display: none;
+	#copyright {
+	}	
+
+	#tech {
+		text-align: right;
+	}
+
+	> * {
+		@include content-font;
+		color: $color2;
+		font-size: 12px;
+
+		a {
+			color: $color4;
+		}
+	}
+
+	margin-bottom: 10px;
+}
+
+@media 
+(min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+	body {
+		background-image: url(../images/bg-pattern@2x.png) !important;
+	 	background-size: 8px 8px !important;   
+	 }
+
+ 	#agetomtt .icon, #agetomtt-header-content {
+		background-image: url(../images/work/agetomtt@2x.png) !important;
+		background-size: 500px 356px !important;	
+	}
+
+	#popkalendern .icon, #popkalendern-header-content {
+		background-image: url(../images/work/popkalendern@2x.png) !important;
+		background-size: 500px 356px !important;	
+	}
+
+	#ascc .icon, #ascc-header-content {
+		background-image: url(../images/work/ascc@2x.png) !important;
+		background-size: 500px 356px !important;	
+	}
+
+	#wim .icon, #wim-header-content {
+		background-image: url(../images/work/wim@2x.png) !important;
+		background-size: 500px 356px !important;	
+	}
+}

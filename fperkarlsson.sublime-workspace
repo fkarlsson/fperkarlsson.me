@@ -1,0 +1,1417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jquery",
+				"jquery-address"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"add",
+				"add_channels"
+			],
+			[
+				"binary",
+				"binaryToDecimalArray"
+			],
+			[
+				"getRaw",
+				"getRawDataTimestamp"
+			],
+			[
+				"application_",
+				"application_title"
+			],
+			[
+				"oau",
+				"oauth_callback"
+			],
+			[
+				"app",
+				"application_uri"
+			],
+			[
+				"appl",
+				"application_title"
+			],
+			[
+				"requre",
+				"require_once"
+			],
+			[
+				"gran",
+				"grantType"
+			],
+			[
+				"redi",
+				"redirectUri"
+			],
+			[
+				"client",
+				"clientId"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"red",
+				"redirectUri"
+			],
+			[
+				"clien",
+				"clientSecret"
+			],
+			[
+				"redire",
+				"redirect_uri"
+			],
+			[
+				"oauth",
+				"oauth_clients"
+			],
+			[
+				"oaut",
+				"oauth_clients"
+			],
+			[
+				"index",
+				"index_in_train"
+			],
+			[
+				"train",
+				"train_id"
+			],
+			[
+				"csrf",
+				"csrf_token_name"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph"
+			],
+			[
+				"source",
+				"source"
+			],
+			[
+				"sub_",
+				"sub_source"
+			],
+			[
+				"data",
+				"data_sub_source"
+			],
+			[
+				"datasubsour",
+				"data_sub_source"
+			],
+			[
+				"select",
+				"selectValues"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"getraw",
+				"getRawDataList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 16209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>Fredrik Per Karlsson - Developer / Project Manager</title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n        <link href='http://fonts.googleapis.com/css?family=Quicksand|Oswald|Open+Sans:400,700' rel='stylesheet' type='text/css'>\n        <link href=\"//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css\" rel=\"stylesheet\">\n        <link rel=\"stylesheet\" href=\"styles/main.css\">\n        <!-- build:js scripts/vendor/modernizr.js -->\n        <script src=\"components/modernizr/modernizr.js\"></script>\n        <!-- endbuild -->\n    </head>\n    <body>\n        <div class=\"container\">\n        <!--\n            Header\n        -->\n            <div id=\"header-wrapper\">\n                <header class=\"row\" id=\"header\">\n                    <div class=\"large-12 columns\">\n                        <div class=\"row\">\n                            <div class=\"large-4 large-offset-8 columns\" id=\"connect\">\n                                <a href=\"https://twitter.com/fPERkarlsson/\" target=\"_blank\"><i class=\"icon-twitter\"></i></a>\n                                <a href=\"http://linkedin.com/in/fperkarlsson\" target=\"_blank\"><i class=\"icon-linkedin\"></i></a>\n                                <a href=\"https://github.com/fkarlsson\" target=\"_blank\"><i class=\"icon-github\"></i></a>\n                                <a href=\"#\"><i class=\"icon-envelope\"></i></a>\n                                <!-- <a href=\"http://www.kungahuset.se/\" target=\"_blank\"><div class=\"swedish-flag\"></div></a> -->\n                            </div>\n                        </div>\n                        <div class=\"row\">\n                            <div class=\"large-12 columns\" id=\"name\">\n                                <h1>Fredrik Per Karlsson</h1>\n                            </div>\n                        </div>\n                        <div class=\"row\">\n                            <div class=\"large-12 columns\" id=\"title\">\n                                <h2>Developer / Project Manager</h2>\n                            </div>\n                        </div>\n                        <div class=\"row\">\n                            <div class=\"large-12 columns\" id=\"tagline\">\n                                <h3>Structured · Quick Learner · Dedicated</h3>\n                            </div>\n                        </div>\n                    </div>\n                </header>\n            </div>\n        <!--\n            End Header\n        -->\n\n        <!-- \n            Content\n        -->\n          <!--   <div id=\"content-wrapper\">\n                <div class=\"row\" id=\"content\">\n                    <div class=\"large-12 columns\">\n                        <!--\n                            Skills\n                        -->\n                        <section class=\"row\" id=\"skills\">\n                            <div class=\"large-12 columns\">\n\n                                <div class=\"row\" id=\"skills-header\">\n                                    <div class=\"large-11 columns\">\n                                        <h4>Skills</h4>\n                                        <span class=\"subtitle\">/ Some things I've learned</span>\n                                    </div>\n\n                                    <div class=\"large-1 columns header-icon\">\n                                        <i class=\"icon-star\"></i>\n                                    </div>\n                                </div>\n\n                                <div class=\"row\" id=\"skills-blocks\">\n                                    <div class=\"large-3 columns\">\n                                        <div class=\"block\">\n                                            <h5>Front-End / UX</h5>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Preferring the web environment, I have a long experience of working with HTML, CSS and JS. I love finding new clever ways of doing things as well as taking advantage of all the great frameworks and boilerplates available. I try to put the user in focus and make an interface that speaks for itself.\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"large-3 columns\">             \n                                        <div class=\"block\">\n                                            <h5>iOS Development</h5>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Just starting out in the iOS scene but I already enjoy working in it as I think the workflow fits me very nicely. Objective-C felt too different at first but after changing my mindset the bits came together. XCode leaves some things to be desired though...\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"large-3 columns\">\n                                        <div class=\"block\">\n                                            <h5>Digital Design</h5>\n                                            <div class=\"content\">\n                                                <p>\n                                                    When noone else is available (or when I'm forced to) I get into the design chair and do my best. I have an eye for good design but I sometimes lack the creativity. I like reading articles about design and I try to get better and practice whenever I get the chance. \n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"large-3 columns\">\n                                        <div class=\"block\">\n                                            <h5>Project Management</h5>\n                                            <div class=\"content\">\n                                                <p>\n                                                    When working with a project I find that keeping the schedule tight and the priorities straight are the most important. Depending on the size and scope a good, well-thought-out project plan can save the day.\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                <div class=\"row\" id=\"skills-additional-header\">\n                                    <div class=\"large-11 columns\">\n                                        <h4>Anything else?</h4>\n                                        <span class=\"subtitle\">/ I also know some...</span>\n                                    </div>\n\n                                    <div class=\"large-1 columns header-icon\">\n                                        <i class=\"icon-plus\"></i>\n                                    </div>\n                                </div>\n\n                                <div class=\"row\" id=\"skills-additional-blocks\">\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"adobe-cs\">\n                                            <div class=\"icon svg-adobe-cs\"></div>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Adobe CC\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"ni\">\n                                            <div class=\"icon svg-ni\"></div>\n                                            <div class=\"content\">\n                                                <p>\n                                                    NI Products<br>\n                                                    LabVIEW\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"database-design\">\n                                            <div class=\"icon svg-database\"></div>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Database Design\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"documentation\">\n                                            <i class=\"icon-file-alt\"></i>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Technical Documentation\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"python\">\n                                            <div class=\"icon svg-python\"></div>\n                                            <div class=\"content\">\n                                                <p>\n                                                    Scripting Languages\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"large-2 columns\">\n                                        <div class=\"block-small\" id=\"more\">\n                                            <span class=\"icon\">···</span>\n                                            <div class=\"content\">\n                                                <p>\n                                                    ...and much<br>\n                                                    more, contact<br>\n                                                    me for more info!\n                                                </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                            </div>\n                        </section>\n\n                        <!--\n                            Work\n                        -->\n                        <section class=\"row\" id=\"work\">\n                            <div class=\"large-12 columns\">\n\n                                <div class=\"row\" id=\"work-header\">\n                                    <div class=\"large-11 columns\">\n                                        <h4>Work</h4>\n                                        <span class=\"subtitle\">/ Some things I've done</span>\n                                    </div>\n                                    <div class=\"large-1 columns header-icon\">\n                                        <i class=\"icon-coffee\"></i>\n                                    </div>\n                                </div>\n                                <div class=\"row\" id=\"work-blocks\">\n                                    <div class=\"large-3 columns block\" id=\"ageto-mtt\">\n                                        <img src=\"http://placekitten.com/g/220/220\" alt=\"\">\n                                        <h5>Website: AgetoMTT</h5>\n                                        <h6>HTML / CSS / JS / PHP / Design</h6>\n                                        <p>\n                                            Working in collaboration with a friend of mine, she provided hand-drawn illustrations and feedback of my design decisions while I worked on the rest. \n                                        </p>\n                                        <p>\n                                            The design was mocked up in Photoshop and then realized with <a href=\"http://html5boilerplate.com/\">H5BP</a>/<a href=\"http://960.gs/\">960gs</a> with <a href=\"http://modx.com/\">MODx</a> as back-end provider. The customer now maintans this site themselves through the MODx admin interface.\n                                        </p>\n                                    </div>\n                                    <div class=\"large-3 columns block\" id=\"ascc\">\n                                        <img src=\"http://placekitten.com/g/220/220\" alt=\"\">\n                                        <h5>iOS App: ASCC</h5>\n                                        <h6>Obj-C / Cocoa Touch / PHP (API)</h6>\n                                        <p>\n                                            My first approved iOS app which is used for viewing the customers data from a Weighing In Motion/Wheel Flat Detection System for the railway. \n                                        </p>\n                                        <p>\n                                            The app features some fancy table views, a sidebar menu, REST API authentication/access and some CoreGraphics drawing.\n                                        </p>\n                                    </div>\n                                    <div class=\"large-3 columns block\" id=\"popkalendern\">\n                                        <img src=\"http://placekitten.com/g/220/220\" alt=\"\">\n                                        <h5>Website: Popkalendern</h5>\n                                        <h6>HTML / SCSS / JS (jQuery)</h6>\n                                        <p>\n                                            A friend of mine who is very passionate about swedish pop music had the idea to create an online christmas calendar which ranked the year's 24 best albums, one for every day of december. The idea came in a bit late which made this hobby project a bit rushed but I am still pretty happy with the result. I was originally not supposed to do the design either. A lot can still be improved and optimized (animations are really slow in some cases), but that's for next christmas.\n                                        </p>\n                                        <p>\n                                            The design was mocked-up by prototyping with Bootstrap which eventually turned into the final production code. <a href=\"http://html5boilerplate.com/\">H5BP</a> was used  and the excellent <a href=\"http://isotope.metafizzy.co/\">Isotope</a> library provided (after hacking it a bit) the masonry-like layout.\n                                        </p>\n                                    </div>\n                                    <div class=\"large-3 columns block\" id=\"web-design\">\n                                        <img src=\"http://placekitten.com/g/220/220\" alt=\"\">\n                                        <h5>Data Sheet: AMTAB Weighing In Motion / Wheel Flat Detection</h5>\n                                        <h6>InDesign, Illustrator, Photoshop</h6>\n                                        <p>\n                                            A company I was working for needed a data sheet that our salespeople and reps could show to customers. I was not really prepared for this assignment but in the end I surprised myself with the result. This is the first \"design only\" work I've done which did not involve some kind of programming. I learned a lot and I would like to do something similar again.\n                                        </p>\n                                        <p>\n                                            Most images are made from scratch in Illustrator while the overall page design was made in InDesign. It was then translated into Swedish, English and Russian and optimized for print.\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>\n                        </section>\n\n                    </div>\n                </div>\n            </div> -->\n            <!--\n                End Content\n            -->\n\n            <!--\n                Footer\n            -->\n            <footer class=\"row\" id=\"footer\">\n                <div class=\"large-6 columns\" id=\"copyright\">\n                    Copyright &copy; 2013 Fredrik Per Karlsson\n                </div>\n\n                <div class=\"large-6 columns\" id=\"tech\">\n                    Built with <a href=\"http://html5boilerplate.com/\">H5BP</a>, <a href=\"http://foundation.zurb.com/\">Foundation 4</a>, <a href=\"http://google.com/fonts\">Google Fonts</a>, <a href=\"http://fortawesome.github.io/Font-Awesome/\">Font Awesome</a>\n                </div>\n            </footer>\n            <!--\n                End Footer\n            -->\n        </div>\n\n        <!--[if lt IE 7]>\n            <p class=\"chromeframe\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> or <a href=\"http://www.google.com/chromeframe/?redirect=true\">activate Google Chrome Frame</a> to improve your experience.</p>\n        <![endif]-->\n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];\n            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';\n            s.parentNode.insertBefore(g,s)}(document,'script'));\n        </script>\n\n        <!-- build:js scripts/main.js -->\n        <script data-main=\"scripts/main\" src=\"components/requirejs/require.js\"></script>\n        <!-- endbuild -->\n</body>\n</html>\n",
+			"settings":
+			{
+				"buffer_size": 19207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 9480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/components/font-awesome/build/test.html",
+			"settings":
+			{
+				"buffer_size": 25802,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Ant-h5bp.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"dock",
+				"Snippet: Start Docblock"
+			],
+			[
+				"rmeove",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ack",
+				"Package Control: Add Repository"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bracket Highlighter: Toggle Bracket String Escape Mode"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 554.0
+	},
+	"console":
+	{
+		"height": 204.0,
+		"history":
+		[
+			"asdas",
+			"adfaf"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net/.tmp/styles/main.css",
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me/index.php",
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me/index.html",
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net/app/components/foundation/js/foundation/foundation.js",
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net/bower.json",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net/.sass-cache/b67ea9bccf8969e678dd7a6ded24a11969ef36cc/main.scssc",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/constants.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/system/core/Config.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/phpdoc.xml",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/main.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/ajax.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/site.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/report.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/user.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/utils.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/auth.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/user/error_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/plot.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/js/mylibs/train_data.js",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/plot_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/debug.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/psd/train-icon.jpg",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/data.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/templates/standard/footer.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/js/main.js",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/models/plot_model.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/oauth2.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/models/train_data_model.php",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/DocBlockr/jsdocs.py",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/dist/scripts/vendor/23419e86.angular.min.js",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/DocBlockr/jsdocs-auto-complete.sublime-macro",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/fredrikk/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/app/scripts/installer.js",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/templates/standard/menu.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/js/mylibs/plot.js",
+		"/Applications/MAMP/bin/php/php5.4.4/conf/php.ini",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/api/no_callback_view.php",
+		"/Volumes/CM-BF5xx/system/car_types.xml",
+		"/Users/fredrikk/Downloads/15520308042013 (1).zip",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/templates/standard.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/intermediate/js/mylibs/plot.js",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/authorize_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/db.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/config/application/config/config.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthServer.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/db/ascc_db.sql",
+		"/Users/fredrikk/Dropbox/Code/Python/oauth2/ascc.py",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/oauth.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/rest.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/REST_Controller.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/config/.htaccess",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/config.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/system/helpers/url_helper.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/user/login_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/templates/standard/header.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/templates/report_lkab/header.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/language/english/standard_lang.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/core/MY_Lang.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/language/swedish/api_lang.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/language/english-US/api_lang.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/authorize_view.html",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/helpers/MY_url_helper.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/signature_method/OAuthSignatureMethod.class.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/signature_method/OAuthSignatureMethod_HMAC_SHA1.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthRequest.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthRequestVerifier.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/dashboard_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/views/overlay/train_data_menu_view.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStoreSQL.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthStore.php",
+		"/Users/fredrikk/Downloads/oauth-php/example/server/www/index.php",
+		"/Users/fredrikk/Downloads/oauth-php/example/server/www/hello.php",
+		"/Users/fredrikk/Downloads/oauth-php/example/server/core/init.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/app/views/createUser.html",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStorePDO.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/session/OAuthSessionSESSION.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth2/OAuthClientModel.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/OAuthClient.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStoreSession.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/services.xrds.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/body/OAuthBodyContentDisposition.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/body/OAuthBodyMultipartFormdata.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthDiscovery.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthException.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthRequester.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthRequestLogger.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthRequestSigner.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/OAuthSession.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/signature_method/OAuthSignatureMethod_RSA_SHA1.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStore2Leg.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStoreMySQL.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStoreMySQLi.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStoreOracle.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth/store/OAuthStorePostgreSQL.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/ResourceServer.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth2/OAuthSessionModel.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth2/OAuthScopeModel.php",
+		"/Users/fredrikk/Dropbox/Code/Python/oauth2/youtube.py",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/login.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/Storage/SessionInterface.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/OAuthScopeModel.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/OAuthSessionModel.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/OAuthClientModel.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/routes.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/Storage/ClientInterface.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/Grant/AuthCode.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/Util/Request.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/AuthServer.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/lncd/Oauth2/src/OAuth2/Grant/GrantTypeInterface.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/models/user_model.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/database.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/config/autoload.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/composer.json",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor/autoload.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/index.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/model_scope.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/model_session.php",
+		"/Users/fredrikk/Dropbox/Code/iOS/ASCC/ASCC/Oriya Sangam MN.hhea.xml",
+		"/Applications/MAMP/logs/mysql_error_log.err",
+		"/Applications/MAMP/logs/php_error.log",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/system/core/Security.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/key.php",
+		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/config/application/config/database.php",
+		"/Applications/MAMP/conf/php5.4.4/php.ini",
+		"/Applications/MAMP/conf/apache/httpd.conf"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/fredrikk/Dropbox/Code/Web/ascc/",
+			"/Users/fredrikk/Dropbox/Code/Web/ascc/application/libraries/oauth",
+			"/Users/fredrikk/Dropbox/Code/Web/ascc/vendor",
+			"/Users/fredrikk/Dropbox/Code/Web/ascc",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"define",
+			"\"",
+			" class=\"large\"",
+			"#fff",
+			"#000",
+			"#00ff00",
+			"#ff0000",
+			"#00ff00",
+			"#",
+			"$yellow",
+			"blue",
+			"yellow",
+			"blue",
+			"w-fract",
+			"skills",
+			"color1",
+			"7C1F1D",
+			"$color1",
+			"menu",
+			"Menu",
+			"15px",
+			"box",
+			"\n}",
+			"	\n",
+			"_POST",
+			"is_admin",
+			"int",
+			"editCar",
+			"$id",
+			"auto",
+			"auto complete",
+			"ch0",
+			"ad",
+			"memory",
+			"OAuthException2",
+			"oauth",
+			"OAuth",
+			"oauth",
+			"OAuth",
+			"oauth",
+			"oauth_clients",
+			"format",
+			"print",
+			"isvalid",
+			"checkauth",
+			"granttypes",
+			"The provided authorization grant is invalid, expir",
+			"he provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. Check the \"code\" parameter.",
+			"isvalid",
+			"userdata_set",
+			"'api",
+			"redirect('api/oauth/login');",
+			"pi/oauth",
+			"pi",
+			"redirect",
+			"redirect	",
+			"redirect",
+			"query",
+			"granttype",
+			"responsetypes",
+			"$server",
+			"}\n",
+			"->->",
+			"result",
+			"acceler",
+			"\"",
+			"bot authorized",
+			"config_item",
+			"device_id",
+			"train_id",
+			"getcartypes",
+			"$this->client",
+			"$this->client->",
+			"+",
+			"'",
+			"->",
+			"$row->",
+			"this->rest->key",
+			"_detect_api",
+			"10",
+			"!=",
+			"\\t",
+			"\\r",
+			"\\n",
+			"page",
+			"error_reporting",
+			"virtualhost",
+			"documentroot",
+			"ssl",
+			"Slim::getInstance()",
+			"session",
+			"error_data",
+			"file",
+			"RewriteCond",
+			"api",
+			"'\n",
+			"scope",
+			"StepsService",
+			"'",
+			"\n	",
+			"response",
+			"result",
+			"id",
+			"that",
+			" :",
+			"rge\"",
+			"1,",
+			"help-block",
+			"<input ",
+			"ascc-",
+			"help-block",
+			"<input",
+			" hidden",
+			"<div class=\"help-block\"></div>",
+			"{",
+			"},",
+			"next",
+			"\"",
+			"-moz-",
+			"overlay_view_raw_data_error",
+			"this",
+			"<label for",
+			".alert-message.success",
+			".alert-message.error",
+			"error",
+			"success",
+			"alert-message",
+			"<div class=\"input\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"OAuthException",
+			"oauth2",
+			"'/api",
+			"redirect('/api/oauth/login');",
+			"$this->authserver",
+			"",
+			"help-inline",
+			"<input class=\"input-xlarge\"",
+			"help-inline",
+			"<input class=\"input-xlarge\"",
+			"",
+			"<span class=\"help-inline\"></span>",
+			"<span class=\"help-inline\"></div>",
+			"<label class=\"control-label\" for",
+			".alert.alert-success",
+			".alert.alert-error",
+			"alert-error",
+			"alert-success",
+			"alert",
+			"<div class=\"controls\">",
+			"<label class=\"control-label\" for",
+			"();?>",
+			"<?="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10829,
+								10829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3039.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15601,
+								15127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4551,
+								4551
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3869.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/components/font-awesome/build/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 102.0
+	},
+	"project": "fperkarlsson.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".css",
+				".tmp/styles/main.css"
+			],
+			[
+				"foundationjs",
+				"app/components/foundation/js/foundation/foundation.js"
+			],
+			[
+				"mainjs",
+				"app/scripts/main.js"
+			],
+			[
+				"compon",
+				"component.json"
+			],
+			[
+				"main",
+				"app/styles/main.scss"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"constants",
+				"application/config/constants.php"
+			],
+			[
+				"config",
+				"system/core/Config.php"
+			],
+			[
+				"utils",
+				"application/controllers/utils.php"
+			],
+			[
+				"errorview",
+				"application/views/user/error_view.php"
+			],
+			[
+				"ajax",
+				"application/controllers/ajax.php"
+			],
+			[
+				"auth",
+				"application/libraries/auth.php"
+			],
+			[
+				"traindatajs",
+				"js/mylibs/train_data.js"
+			],
+			[
+				"traindatamodel",
+				"application/models/train_data_model.php"
+			],
+			[
+				"install",
+				"install/app/scripts/installer.js"
+			],
+			[
+				"data",
+				"application/controllers/api/data.php"
+			],
+			[
+				"report",
+				"application/controllers/report.php"
+			],
+			[
+				"plotview",
+				"application/views/plot_view.php"
+			],
+			[
+				"constans",
+				"application/config/constants.php"
+			],
+			[
+				"footer",
+				"application/views/templates/standard/footer.php"
+			],
+			[
+				"standard",
+				"application/views/templates/standard.php"
+			],
+			[
+				"menu",
+				"application/views/templates/standard/menu.php"
+			],
+			[
+				"plotjs",
+				"js/mylibs/plot.js"
+			],
+			[
+				"plo",
+				"intermediate/js/mylibs/plot.js"
+			],
+			[
+				"plot",
+				"application/models/plot_model.php"
+			],
+			[
+				"traindata",
+				"js/mylibs/train_data.js"
+			],
+			[
+				"db.php",
+				"application/libraries/db.php"
+			],
+			[
+				"htaccess",
+				"install/config/.htaccess"
+			],
+			[
+				"confi",
+				"install/config/application/config/config.php"
+			],
+			[
+				"authserver",
+				"application/libraries/oauth/OAuthServer.php"
+			],
+			[
+				"authview",
+				"application/views/authorize_view.php"
+			],
+			[
+				"oauth",
+				"application/controllers/api/oauth.php"
+			],
+			[
+				"header",
+				"application/views/templates/standard/header.php"
+			],
+			[
+				"mylan",
+				"application/core/MY_Lang.php"
+			],
+			[
+				"apilang",
+				"application/language/swedish/api_lang.php"
+			],
+			[
+				"autho",
+				"application/views/authorize_view.php"
+			],
+			[
+				"urlhelper",
+				"system/helpers/url_helper.php"
+			],
+			[
+				"url",
+				"application/helpers/MY_url_helper.php"
+			],
+			[
+				"loginview",
+				"application/views/user/login_view.php"
+			],
+			[
+				"user",
+				"application/controllers/user.php"
+			],
+			[
+				"men",
+				"application/views/templates/standard/menu.php"
+			],
+			[
+				"menuvie",
+				"application/views/overlay/train_data_menu_view.php"
+			],
+			[
+				"dashb",
+				"application/views/dashboard_view.php"
+			],
+			[
+				"oauthserver",
+				"application/libraries/oauth/OAuthServer.php"
+			],
+			[
+				"oauthsigna",
+				"application/libraries/oauth/signature_method/OAuthSignatureMethod.class.php"
+			],
+			[
+				"hmac",
+				"application/libraries/oauth/signature_method/OAuthSignatureMethod_HMAC_SHA1.php"
+			],
+			[
+				"oauthrequ",
+				"application/libraries/oauth/OAuthRequest.php"
+			],
+			[
+				"requestver",
+				"application/libraries/oauth/OAuthRequestVerifier.php"
+			],
+			[
+				"oauthverifier",
+				"application/libraries/oauth/OAuthRequestVerifier.php"
+			],
+			[
+				"oa",
+				"application/controllers/api/oauth.php"
+			],
+			[
+				"viewuser",
+				"install/app/views/createUser.html"
+			],
+			[
+				"oauth2",
+				"application/controllers/api/oauth2.php"
+			],
+			[
+				"oauthstore",
+				"application/libraries/oauth/OAuthStore.php"
+			],
+			[
+				"ervices",
+				"services.xrds.php"
+			],
+			[
+				"clientmodel",
+				"application/libraries/oauth2/OAuthClientModel.php"
+			],
+			[
+				"ouathstores",
+				"application/libraries/oauth/store/OAuthStoreSession.php"
+			],
+			[
+				"scopemodel",
+				"application/libraries/oauth2/OAuthScopeModel.php"
+			],
+			[
+				"sessionmode",
+				"application/libraries/oauth2/OAuthSessionModel.php"
+			],
+			[
+				"rest",
+				"application/config/rest.php"
+			],
+			[
+				"oaut",
+				"application/controllers/api/oauth2.php"
+			],
+			[
+				"routes",
+				"application/config/routes.php"
+			],
+			[
+				"sessioninter",
+				"vendor/lncd/Oauth2/src/OAuth2/Storage/SessionInterface.php"
+			],
+			[
+				"clientinter",
+				"vendor/lncd/Oauth2/src/OAuth2/Storage/ClientInterface.php"
+			],
+			[
+				"resourceser",
+				"vendor/lncd/Oauth2/src/OAuth2/ResourceServer.php"
+			],
+			[
+				"restcon",
+				"application/libraries/REST_Controller.php"
+			],
+			[
+				"request",
+				"vendor/lncd/Oauth2/src/OAuth2/Util/Request.php"
+			],
+			[
+				"authserv",
+				"vendor/lncd/Oauth2/src/OAuth2/AuthServer.php"
+			],
+			[
+				"authcode",
+				"vendor/lncd/Oauth2/src/OAuth2/Grant/AuthCode.php"
+			],
+			[
+				"clientmode",
+				"application/libraries/OAuthClientModel.php"
+			],
+			[
+				"grantt",
+				"vendor/lncd/Oauth2/src/OAuth2/Grant/GrantTypeInterface.php"
+			],
+			[
+				"sessionmodel",
+				"application/libraries/OAuthSessionModel.php"
+			],
+			[
+				"resource",
+				"vendor/lncd/Oauth2/src/OAuth2/ResourceServer.php"
+			],
+			[
+				"login",
+				"application/controllers/api/login.php"
+			],
+			[
+				"usermodel",
+				"application/models/user_model.php"
+			],
+			[
+				"debug",
+				"application/controllers/debug.php"
+			],
+			[
+				"database",
+				"application/config/database.php"
+			],
+			[
+				"grantyt",
+				"vendor/lncd/Oauth2/src/OAuth2/Grant/GrantTypeInterface.php"
+			],
+			[
+				"autolo",
+				"application/config/autoload.php"
+			],
+			[
+				"auto",
+				"vendor/autoload.php"
+			],
+			[
+				"oau",
+				"application/libraries/OAuthSessionModel.php"
+			],
+			[
+				"session",
+				"vendor/lncd/Oauth2/src/OAuth2/Storage/SessionInterface.php"
+			],
+			[
+				"resoo",
+				"application/libraries/REST_Controller.php"
+			],
+			[
+				"constan",
+				"application/config/constants.php"
+			],
+			[
+				"restc",
+				"application/libraries/REST_Controller.php"
+			],
+			[
+				"restco",
+				"application/libraries/REST_Controller.php"
+			],
+			[
+				"trainmodel",
+				"application/models/train_data_model.php"
+			],
+			[
+				"secu",
+				"system/core/Security.php"
+			],
+			[
+				"key",
+				"application/controllers/api/key.php"
+			],
+			[
+				"autoload",
+				"application/config/autoload.php"
+			],
+			[
+				"atabase",
+				"application/config/database.php"
+			],
+			[
+				"trains",
+				"js/mylibs/train_data.js"
+			],
+			[
+				"api",
+				"install/app/scripts/services/ApiService.js"
+			],
+			[
+				"steps",
+				"install/app/scripts/controllers/Steps.js"
+			],
+			[
+				"writeconfigjs",
+				"install/app/scripts/controllers/WriteConfig.js"
+			],
+			[
+				"writecon",
+				"install/app/views/writeConfig.html"
+			],
+			[
+				"apiindex",
+				"install/api/index.php"
+			],
+			[
+				"",
+				"ascc.sublime-workspace"
+			],
+			[
+				"config.php",
+				"install/config/application/config/config.php"
+			],
+			[
+				"settingsmodel",
+				"application/models/settings_model.php"
+			],
+			[
+				"installindex",
+				"install/app/index.html"
+			],
+			[
+				"installerjs",
+				"install/app/scripts/installer.js"
+			],
+			[
+				"installmainjs",
+				"install/app/scripts/main.js"
+			],
+			[
+				"apiser",
+				"install/app/scripts/services/ApiService.js"
+			],
+			[
+				"project",
+				"build/config/project.properties"
+			],
+			[
+				"defaultp",
+				"build/config/default.properties"
+			],
+			[
+				"buildxm",
+				"build/build.xml"
+			],
+			[
+				"steps.js",
+				"install/app/scripts/controllers/Steps.js"
+			],
+			[
+				"wimtest",
+				"installer/app/scripts/controllers/WimTestDatabase.js"
+			],
+			[
+				"ascccreate",
+				"installer/app/views/asccCreateTables.html"
+			],
+			[
+				"asccalter",
+				"installer/app/scripts/controllers/AsccAlterTables.js"
+			],
+			[
+				"alter",
+				"installer/app/views/asccAlterTables.html"
+			],
+			[
+				"script",
+				"install/js/script.js"
+			],
+			[
+				"writeconfi",
+				"installer/app/scripts/controllers/WriteConfig.js"
+			],
+			[
+				"write",
+				"installer/app/views/writeConfig.html"
+			],
+			[
+				"setingsview",
+				"application/views/settings_view.php"
+			],
+			[
+				"gru",
+				"installer/Gruntfile.js"
+			],
+			[
+				"main.css",
+				"installer/app/styles/main.css"
+			],
+			[
+				"maincss",
+				"css/main.css"
+			],
+			[
+				"mainscs",
+				"installer/app/styles/main.scss"
+			],
+			[
+				"createuserjs",
+				"installer/app/scripts/controllers/CreateUser.js"
+			],
+			[
+				"tcarax",
+				"db/tcaraxledistance.sql"
+			],
+			[
+				"tcartype",
+				"db/tcartype.sql"
+			],
+			[
+				"db/",
+				"db/wim_bt_compatible.sql"
+			],
+			[
+				"createuser",
+				"installer/app/views/createUser.html"
+			],
+			[
+				"wimtestda",
+				"installer/app/scripts/controllers/WimTestDatabase.js"
+			],
+			[
+				"ascccreatejs",
+				"installer/app/scripts/controllers/AsccCreateTables.js"
+			],
+			[
+				"installer",
+				"installer/app/scripts/installer.js"
+			],
+			[
+				"ascctestjs",
+				"installer/app/scripts/controllers/AsccTestDatabase.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"pop",
+				"~/Dropbox/Code/Web/popkalendern.se/popkalendern.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/Code/Web/ascc/ascc-osx.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 548.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

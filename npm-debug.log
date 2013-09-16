@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'yo' ]
+2 info using npm@1.1.59
+3 info using node@v0.8.8
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'yo', null ]
+7 silly cache add name=undefined spec="yo" args=["yo",null]
+8 verbose parsed url { pathname: 'yo', path: 'yo', href: 'yo' }
+9 silly lockFile c41975d1-yo yo
+10 verbose lock yo /Users/fredrikk/.npm/c41975d1-yo.lock
+11 silly lockFile c41975d1-yo yo
+12 verbose addNamed [ 'yo', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile d937c28e-yo yo@
+15 verbose lock yo@ /Users/fredrikk/.npm/d937c28e-yo.lock
+16 silly lockFile d937c28e-yo yo@
+17 error Error: EACCES, open '/Users/fredrikk/.npm/d937c28e-yo.lock'
+17 error  { [Error: EACCES, open '/Users/fredrikk/.npm/d937c28e-yo.lock']
+17 error   errno: 3,
+17 error   code: 'EACCES',
+17 error   path: '/Users/fredrikk/.npm/d937c28e-yo.lock' }
+18 error Please try running this command again as root/Administrator.
+19 error System Darwin 12.5.0
+20 error command "node" "/usr/local/bin/npm" "install" "-g" "yo"
+21 error cwd /Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net
+22 error node -v v0.8.8
+23 error npm -v 1.1.59
+24 error path /Users/fredrikk/.npm/d937c28e-yo.lock
+25 error code EACCES
+26 error errno 3
+27 error stack Error: EACCES, open '/Users/fredrikk/.npm/d937c28e-yo.lock'
+28 verbose exit [ 3, true ]
