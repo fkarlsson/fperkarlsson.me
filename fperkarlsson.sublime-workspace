@@ -163,7 +163,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 16209,
+				"buffer_size": 20665,
 				"line_ending": "Unix"
 			}
 		},
@@ -186,15 +186,7 @@
 			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 842,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/main.scss",
-			"settings":
-			{
-				"buffer_size": 9480,
+				"buffer_size": 1942,
 				"line_ending": "Unix"
 			}
 		},
@@ -308,6 +300,7 @@
 	},
 	"file_history":
 	[
+		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me/app/styles/main.scss",
 		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net/.tmp/styles/main.css",
 		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me/index.php",
 		"/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me/index.html",
@@ -434,8 +427,7 @@
 		"/Users/fredrikk/Dropbox/Code/Web/ascc/system/core/Security.php",
 		"/Users/fredrikk/Dropbox/Code/Web/ascc/application/controllers/api/key.php",
 		"/Users/fredrikk/Dropbox/Code/Web/ascc/install/config/application/config/database.php",
-		"/Applications/MAMP/conf/php5.4.4/php.ini",
-		"/Applications/MAMP/conf/apache/httpd.conf"
+		"/Applications/MAMP/conf/php5.4.4/php.ini"
 	],
 	"find":
 	{
@@ -635,15 +627,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16209,
+						"buffer_size": 20665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10829,
-								10829
+								0,
+								0
 							]
 						],
 						"settings":
@@ -718,15 +710,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 1942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								0,
+								0
 							]
 						],
 						"settings":
@@ -748,34 +740,6 @@
 			[
 				{
 					"buffer": 4,
-					"file": "app/styles/main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4551,
-								4551
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3869.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "app/components/font-awesome/build/test.html",
 					"semi_transient": false,
 					"settings":
