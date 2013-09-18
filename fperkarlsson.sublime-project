@@ -4,6 +4,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.net"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/fredrikk/Dropbox/Code/Web/fperkarlsson.me"
 		}
 	]
 }
